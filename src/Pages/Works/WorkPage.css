@@ -1,0 +1,42 @@
+.container-cards{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.card-horizontal{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-job-title{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+  
+
+}
+.logo-image{
+  cursor:pointer;
+}
+.container-fluid{
+ margin-top: 50px;
+ margin-bottom: 50px;
+ 
+}
+.card:hover{
+  transform: translateY(-20px);
+  
+}
+.card-list-work-page{
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: lightblue;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 2px 5px lightblue;
+  height:80px;
+  padding :5px;
+}

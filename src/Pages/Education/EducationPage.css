@@ -1,0 +1,63 @@
+.education-page-container{
+    position: relative;
+}
+.college-container{
+    position: absolute;
+    background-color: red;
+    top:620px;
+    left:280px;
+}
+
+.area:hover {
+    opacity:10;
+}
+
+
+ .high-school-container,.college-container,.master-container{
+    visibility: hidden;
+    width:600px;
+    position: absolute;
+    top: 200px;
+    left:600px;
+    border:1px solid lightgray;
+    box-shadow: 1px 1px 10px 5px lightblue;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.high-school-container img,.college-container img, .master-container img{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border:1px solid lightgray;
+    box-shadow: 1px 1px 10px 5px lightblue;
+}
+.high-school-parent-container:hover .high-school-container,.college-parent-container:hover .college-container,.master-parent-container:hover .master-container{
+    visibility:visible;
+}
+.container-education-page img {
+    width:400px;
+    height: 250px;
+}
+.interactice-image-ed-p{
+    position: absolute;
+    
+    top:450px;
+    left:1000px;
+    animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+    100% {  -webkit-transform:rotate(360deg); }
+    
+  }
+.interactice-image-ed-p2{
+    position: absolute;
+    top:50px;
+    left:100px;
+    animation: spin2 15s linear infinite;
+}
+@keyframes spin2 {
+    100% {  -webkit-transform:rotate(360deg); }
+    
+  }

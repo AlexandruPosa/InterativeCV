@@ -1,0 +1,96 @@
+/* *{
+    box-sizing: border-box;
+  } */
+  /* body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #b6701e;
+  } */
+  
+  /* .container-skills-page {
+    color: #fff;
+    text-align: center;
+  } */
+  
+  .container-col-skills  {
+    height: 100%;
+  }
+  
+  .container-article {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .container-h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  /* Pattern styles */
+  .container-skills-page {
+    display: table;
+    width: 100%;
+    text-align: center;
+   
+  }
+  
+  .left-half {
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    border:2px solid lightgrey;
+    color: white;
+    
+  }
+  
+  .right-half {
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    border: 2px solid lightgrey;
+    color: blue;
+  }
+  
+.teamwork .teamwork-description,.quickLearner .quickLearner-description,.selfStarter .selfStarter-description,.html-container .html-container-description,.css-container .css-container-description,.js-container .js-container-description,.bootstrap-container .bootstrap-container-description,.react-container .react-container-description{
+  visibility: hidden;
+  width: 320px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  box-shadow: 5px 5px 10px 5px lightgrey;
+  margin-top: 70px;
+  font-weight: bold;
+
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.teamwork:hover .teamwork-description,.quickLearner:hover .quickLearner-description,.selfStarter:hover .selfStarter-description,.html-container:hover .html-container-description,.css-container:hover .css-container-description,.js-container:hover .js-container-description,.bootstrap-container:hover .bootstrap-container-description,.react-container:hover .react-container-description{
+  visibility: visible;
+}
+#car{
+  width:130px;
+  height:65px;
+  background:transparent url("../../Image/car-icon.png") no-repeat center center;
+  background-size:50%;
+  position:absolute;
+  animation: background 12s infinite normal;
+}
+
+@keyframes background {
+  0% { top:50px; left:200px; -webkit-transform:rotate(0deg); }
+  50% { top:50px; left:300px; -webkit-transform:rotate(0deg); }
+  100% { top:50px; left:200px; -webkit-transform:rotate(0deg); }
+  
+}
+
